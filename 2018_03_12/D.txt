@@ -1,0 +1,20 @@
+Bạn được cho một đồ thị gồm N đỉnh, các đỉnh được đánh số từ 0 đến N - 1, và M cạnh hai chiều nối chúng. Đồ thị này đảm bảo liên thông. Một cạnh có hai chi phí là tiền để đi qua nó, và thời gian để đi qua nó. Bạn cần xây một cây khung gồm N - 1 cạnh liên thông sao cho tích của tổng hai chi phí là nhỏ nhất.
+
+Input
+Dòng đầu là số nguyên dương N. (1 ≤ N ≤ 200), và số nguyên dương M (1 ≤ M ≤ 10000).
+
+M dòng sau là 4 số nguyên (u, v, c, t), mô tả một cạnh của đồ thị. (0 ≤ c, t ≤ 255).
+
+Output
+In ra một dòng duy nhất là tích bé nhất.
+input
+5 7
+0 1 161 79
+0 2 161 15
+0 3 13 153
+1 4 142 183
+2 4 236 80
+3 4 40 241
+2 1 65 92
+output
+139779
