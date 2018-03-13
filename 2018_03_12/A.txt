@@ -1,0 +1,22 @@
+//vn.spoj.com/problems/VMLSEQ/
+Một dãy số may mắn được định nghĩa như sau:
+
+1, {x,  - x} là một dãy số may mắn.
+
+2, Nếu S là một dãy số may mắn thì {x, S,  - x} cũng được gọi là một dãy số may mắn.
+
+3, Nếu P và Q là hay dãy số may mắn thì {P, Q} cũng được gọi là một dãy số may mắn.
+
+Bạn được cho một dãy a gồm N phần tử.
+
+Bạn được yêu cầu trả lời Q truy vấn, mỗi truy vấn có dạng (l, r). Bạn cần tìm hai vị trí x và y sao do dãy con liên tiếp bắt đầu từ vị trí x và kết túc tại vị trí y là dãy số may mắn, và y - x là lớn nhất có thể.
+
+Input
+Dòng đầu là số nguyên dương N. (1 ≤ N ≤ 100000), và số nguyên dương Q (1 ≤ Q ≤ 100000).
+
+Dòng hai là N số nguyên a1, a2,..,aN. ( - 100000 ≤ ai ≤ 100000).
+
+Tiếp đó là Q dòng, mỗi dòng gồm 2 số nguyên dương l và r, trong đó 1 ≤ l ≤ r ≤ N.
+
+Output
+Q dòng, mỗi dòng là độ dài của dãy con liên tiếp may mắn dài nhất.
