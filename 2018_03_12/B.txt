@@ -1,0 +1,57 @@
+Bạn được cho một mạng máy tính gồm N máy tính được kết nối với nhau bởi N - 1 dây cáp, giả sử là mạng máy tính này liên thông.
+
+Ban đầu, lợn con có một file phim được đóng bởi lợn ú và lợn mập. Lợn con cho file đó vào 2 máy tính a và b. File có thể được copy từ máy x sang máy y nếu hai máy này được nối với nhau trực tiếp bởi một dây cáp, và việc sao chép tốn đúng một phút. Ở một thời điểm, một máy chỉ được copy sang đúng một máy khác, và có thể nhiều máy cùng tham gia vào quá trình copy.
+
+Hãy tính thời gian ngắn nhất để tất cả các máy đều có phim để xem nhé !
+
+Input
+Dòng đầu là số nguyên dương N và hai số nguyên dương a và b.
+
+N - 1 dòng sau gồm các cặp số (x, y) mô tả một dây cáp.
+
+Output
+Một dòng duy nhất là thời gian ngắn nhất để lợn con sao chép các file.
+
+Examples
+input
+6 2 1
+1 2
+2 3
+2 4
+1 5
+5 6
+output
+2
+input
+10 1 2
+1 2
+2 5
+1 3
+1 4
+4 6
+6 7
+3 8
+3 9
+3 10
+output
+4
+input
+17 1 2
+1 3
+1 4
+4 6
+6 7
+3 8
+3 9
+3 10
+1 13
+13 5
+13 11
+13 12
+13 14
+14 15
+15 16
+15 17
+14 2
+output
+5
