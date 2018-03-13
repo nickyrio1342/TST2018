@@ -1,0 +1,23 @@
+Một xâu được gọi là palindrome nếu như nó đọc từ trái qua hay từ phải qua thì cũng giống nhau.
+
+Bạn được cho một xâu s có độ dài n gồm các chữ cái latin thường. Độ đẹp của xâu s là số xâu con liên tiếp của nó là palindrome.
+
+Bạn có quyền giữ nguyên xâu s, hoặc thay đổi duy nhất một vị trí của nó.
+
+Bạn hãy tìm độ đẹp lớn nhất mà xâu s có thể làm được nếu như bạn được quyền thay đổi như trên.
+
+Input
+Một dòng duy nhất là xâu s. (Độ dài của xâu không quá 100000).
+
+Output
+Một dòng duy nhất là giá trị lớn nhất có thể đạt được của độ đẹp của xâu.
+
+Examples
+c. Copy
+aaaa
+output
+10
+input
+baccb
+output
+9
