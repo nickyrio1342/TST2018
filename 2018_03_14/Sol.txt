@@ -1,0 +1,10 @@
+// GCHESS
+sol bài gchess: Gọi Fxy, Gxy lần lượt là thời điểm sớm nhất mà mã, tốt đi vào ô xy
+•	Nếu k=1, khi đó với ô xy nào đó, quân mã sẽ ở đây vào các thời điểm Fxy, Fxy+2, Fxy+4, ... và không thể có thời điểm nào khác vì đồ thị này 2 phía. Còn tốt sẽ ở đây vào các thời điểm Gxy+k*m, k ∈ N. Ta cho xy chạy và tìm số nhỏ nhất trong giao 2 tập trên là được
+•	Nếu k>1, mã có thể ở vào các thời điểm Fxy+k, k ∈ N (ngoại trừ 1 TH đặc biệt, Fxy=0 và không có quân mã nào đứng gần xy 1 bước nhảy, khi đó k phải khác 1). Làm tương tự TH trên.
+
+// ESEA
+sol bài esea: Số lượng nhóm đúng bằng lực lượng tập độc lập cực đại các bộ dò có liên kết vẹn toàn. 
+Để tìm tập độc lập cực đại thì nhận xét nếu bộ dò i và bộ dò j là liên kết vẹn toàn và bộ dò j và bộ dò k là liên kết vẹn toàn thì bộ dò i và bộ dò k là liên kết vẹn toàn. 
+Từ đó có thể tìm ra tập độc lập bằng quy hoạch động kết hợp chặt nhị phân với thời gian O(n log n). 
+Truy vết: các bộ dò cùng mức trong quá trình quy hoạch động sẽ cùng một nhóm.
