@@ -1,3 +1,6 @@
+//Sử dụng thuật toán Aho - korasic để KMP trên cây
+// Dựng toàn bộ xâu có khả năng nhét vào cây Trie
+// \/
 #include <bits/stdc++.h>
 #define FOR(i, a, b) for (int i = (a); i <= (b); ++i)
 #define FORD(i, a, b) for (int i = (a); i >= (b); --i)
